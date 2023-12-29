@@ -19,13 +19,16 @@ Customize the uSession function call as needed for your specific transactions.
 Execute the macro to interact automatically with SAPGUI.
 
 Example Usage:
-    Dim Session As Object
-    Set Session = uSession("LOGON_SAP", "TRANSACTION")
 
+Sub Ex()
+Dim Session As Object
+Set Session = uSession("LOGON_SAP", "TRANSACTION")
     If Session Is Nothing Then
         MsgBox "Session not found.", vbInformation, "SCRIPT: Error Onto Session Script"
         Exit Sub
     End If
+...
+End Sub
 
 References - VBA Projects Used:
 Visual Basic For Applications
