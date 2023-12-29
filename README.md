@@ -34,13 +34,14 @@ SAPGUI using VBA (Visual Basic for Applications). This method was developed by P
 
 <h2>Example Usage:</h2>
 <pre><code>
+Sub Example()
 Dim Session As Object
 Set Session = uSession("LOGON_SAP", "TRANSACTION")
-
 If Session Is Nothing Then
     MsgBox "Session not found.", vbInformation, "SCRIPT: Error Onto Session Script"
     Exit Sub
 End If
+End Sub
 </code></pre>
 
 <h2>References - VBA Projects Used:</h2>
