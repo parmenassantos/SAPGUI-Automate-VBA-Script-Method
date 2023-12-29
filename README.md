@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1>SAPGUI Auto VBA Method</h1>
+<h1>SAPGUI-Auto-VBA-Method.vba</h1>
 
 <p>SAPGUI Auto VBA Method is a tool designed for automating interactions with 
 SAPGUI using VBA (Visual Basic for Applications). This method was developed by Parmenas Santos.</p>
