@@ -1,5 +1,5 @@
 '
-'   version: 2023-12-29
+'   version: 2023-12-28
 '   Created by Parmenas Santos
 '   parmenassantos@gmail.com
 '
@@ -9,14 +9,14 @@
 '---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 '   Copy and paste data below in your SUB end enjoy.
 '---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-'
+'Sub Example()
 'Dim Session As Object
-'Set Session = uSession("LOGON_SAP", "TRANSATION")
+'Set Session = uSession("LOGON_SAP", "TRANSACTION")
 'If Session Is Nothing Then
 '    MsgBox "Session not found.", vbInformation, "SCRIPT: Error Onto Session Script"
 '    Exit Sub
 'End If
-'
+'End Sub
 '---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Private Const SAPLOGON = "C:\Program Files (x86)\SAP\FrontEnd\SapGui\saplogon.exe"
 Private Const NOTFOUND = "Not Found"
