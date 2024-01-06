@@ -13,9 +13,11 @@
 'Dim Session As Object
 'Set Session = uSession("LOGON_SAP", "TRANSACTION")
 'If Session Is Nothing Then
-'    MsgBox "Session not found.", vbInformation, "SCRIPT: Error Onto Session Script"
+'    MsgBox "Session is empty.", vbInformation, "SCRIPT: Error Into Session Script"
 '    Exit Sub
 'End If
+'    Write your code below. Enjoy!!
+' ...
 'End Sub
 '---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Private Const SAPLOGON = "C:\Program Files (x86)\SAP\FrontEnd\SapGui\saplogon.exe"
