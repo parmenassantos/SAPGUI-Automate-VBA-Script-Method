@@ -33,7 +33,6 @@ Public Const uS4P = "6. S4P - Produção LATAM"
 
 'Transaction EWM
 Public Const MONITOR = "/n/scwm/mon"
-Public Const CONS_ESTORNO = "/n/DAFITI/EST_CONS"
 
 'Transaction ECC
 Public Const PRINTNF = "j1bnfe"
